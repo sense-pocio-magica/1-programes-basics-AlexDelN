@@ -6,6 +6,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime una palabra:");
+        var palabra = Console.ReadLine();
+        int contar = palabra.Length;
+
+        Console.WriteLine("El numero de letras es: " + contar);
+        
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace exercici20;
+﻿using System.Timers;
+
+namespace exercici20;
 
 /* Ens cal un programa que quan li entrem un número de tres xifres i ens retorni 
 el número amb els dígits invertits. 
@@ -12,6 +14,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime el numero de 3 cifras");
+        var numeros = Console.ReadLine();
+        char uno = numeros[0];
+        char dos = numeros[1];
+        char tres = numeros[2];
+
+        Console.WriteLine("El numero invertit es: " + tres + dos + uno);
     }
 }

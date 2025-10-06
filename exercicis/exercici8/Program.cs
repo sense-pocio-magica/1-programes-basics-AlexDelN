@@ -7,6 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime los minutos que quieres calcualar");
+        int minutos = Convert.ToInt32(Console.ReadLine());
+        int horas = minutos / 60;
+        int minRestantes = minutos % 60;
+        Console.WriteLine("Horas " + (horas) + " Minutos " + (minRestantes));
     }
 }

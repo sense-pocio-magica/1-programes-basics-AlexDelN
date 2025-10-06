@@ -16,6 +16,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Nota Examen");
+        var examen = Console.ReadLine();
+        double examen1 = Convert.ToDouble(examen);
+
+        Console.WriteLine("Nota Practicas");
+        var Practicas = Console.ReadLine();
+        double Practicas1 = Convert.ToDouble(Practicas);
+
+        double media = (examen1 * 0.7) + (Practicas1 * 0.3);
+
+        Console.WriteLine("La mitjana es: " + media);
     }
 }

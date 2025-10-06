@@ -8,6 +8,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-    }
+        Console.WriteLine("GENERADOR DE CONTRASENYAS!");
+        Console.WriteLine("Quin es el teu nom?");
+        var nom = Console.ReadLine();
+
+        Console.WriteLine("Y quin es el teu any de naixement");
+        var any = Console.ReadLine();
+
+        Console.WriteLine("Tu contrasenya de mierda es: " + nom + any);
+        
+        
+            }
 }

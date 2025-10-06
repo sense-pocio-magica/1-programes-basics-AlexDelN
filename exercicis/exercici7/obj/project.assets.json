@@ -8,24 +8,31 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Coral Planagumà\\.nuget\\packages\\": {}
+    "C:\\Users\\adels\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici7\\exercici7.csproj",
+      "projectUniqueName": "C:\\Users\\adels\\Escritorio\\DAW\\PROGRAMACION\\1-programes-basics-AlexDelN\\exercicis\\exercici7\\exercici7.csproj",
       "projectName": "exercici7",
-      "projectPath": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici7\\exercici7.csproj",
-      "packagesPath": "C:\\Users\\Coral Planagumà\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Coral Planagumà\\Desktop\\CICLES FORMATIUS\\PROJECTES\\1-Programes-basics\\exercicis\\exercici7\\obj\\",
+      "projectPath": "C:\\Users\\adels\\Escritorio\\DAW\\PROGRAMACION\\1-programes-basics-AlexDelN\\exercicis\\exercici7\\exercici7.csproj",
+      "packagesPath": "C:\\Users\\adels\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adels\\Escritorio\\DAW\\PROGRAMACION\\1-programes-basics-AlexDelN\\exercicis\\exercici7\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Coral Planagumà\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\adels\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
