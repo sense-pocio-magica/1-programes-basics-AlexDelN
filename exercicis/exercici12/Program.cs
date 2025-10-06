@@ -27,6 +27,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime el primer numero");
+        var num1 = Console.ReadLine();
+        int num_1 = Convert.ToInt16(num1);
+
+        Console.WriteLine("Dime el segundo numero");
+        var num2 = Console.ReadLine();
+        int num_2 = Convert.ToInt16(num2);
+
+        int division = num_1 % num_2;
+        Console.WriteLine(num1 + " + " + num2 + " = " + (num_1 + num_2));
+        Console.WriteLine(num1 + " - " + num2 + " = " + (num_1 - num_2));
+        Console.WriteLine(num1 + " * " + num2 + " = " + (num_1 * num_2));
+        Console.WriteLine(num1 + " / " + " = " + (num_1 / num_2) + " sobran: " + division); 
+
     }
 }

@@ -15,6 +15,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Diguem un numero amb decimals");
+        var numero = Console.ReadLine();
+        double numero1 = Convert.ToDouble(numero);
+        double numerod = numero1 % 1;
+
+        Console.WriteLine("Numero lleig: " + numero);
+        Console.WriteLine("Numero meravellós: " + numerod.ToString("F3"));
     }
 }

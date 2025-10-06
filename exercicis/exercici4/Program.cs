@@ -10,7 +10,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Cuanto cuesta el articulo en euros? ");
+        var euro = Console.ReadLine();
+        double euros = Convert.ToDouble(euro);
+
+
+        Console.WriteLine("En pesetas són: " + (euros * 166.386f).ToString("F0"));
         
     }
+    
 }

@@ -7,6 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dime el valor de metros que quieres que combierta");
+        var metros = Console.ReadLine();
+        double metros1 = Convert.ToDouble(metros);
+
+        Console.WriteLine("La conversio de metres a peus es: " + (metros1 * 3.28084).ToString("F2"));
     }
 }
